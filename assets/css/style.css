@@ -5,7 +5,10 @@
 /*Setando variáveis de cor
 ---------------------------*/
 :root {
-    --primary: ;
+    --primary: #211f20;
+    --secondary: #ed1c24;
+    --aditional: #a98b55;
+    --textColor: #ffff;
 }
 
 /* Formatando o header
@@ -14,14 +17,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.7);
+    background-color: var(--primary);
 }
 
-.logo h1 {
-    font-size: 50px;
-    font-weight: 500;
-    text-align: center;
-    margin: 1rem;
+.logo img{
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 1rem;
 }
 
 .nav-bar ul {
@@ -55,9 +57,8 @@
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.7);
 }
 
-.main-title {
-    border: 1px solid red;
-}
+.main-title {}
+
 .main-title h1 {
     text-align: center;
     font-size: 30px;
@@ -75,8 +76,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    border: 1px solid red;
 }
 
 .founders {
@@ -86,8 +85,6 @@
     align-items: center;
     padding: 10px;
     margin: 10px;
-
-    border: 1px solid red;
 }
 
 .founder-apresentation {
@@ -95,7 +92,7 @@
 }
 
 .icon-founder {
-    width: 60px;
+    width: 150px;
     border-radius: 50%;
 }
 
